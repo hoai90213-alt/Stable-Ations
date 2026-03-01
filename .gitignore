@@ -1,0 +1,5 @@
+.Rhistory
+
+# Xcode user data
+xcuserdata/
+*.xcuserstate
