@@ -96,9 +96,14 @@ struct LiquidGlassActionToggle: View {
     }
 }
 
-#Preview {
-    struct PreviewWrapper: View {
+struct LiquidGlassActionToggle_Previews: PreviewProvider {
+    static var previews: some View {
+        PreviewWrapper()
+    }
+
+    private struct PreviewWrapper: View {
         @State private var on = false
+
         var body: some View {
             ZStack {
                 Color.black.ignoresSafeArea()
@@ -107,5 +112,4 @@ struct LiquidGlassActionToggle: View {
             }
         }
     }
-    return PreviewWrapper()
 }

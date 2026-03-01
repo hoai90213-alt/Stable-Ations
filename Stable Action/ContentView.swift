@@ -308,4 +308,8 @@ private struct CornerBrackets: Shape {
     }
 }
 
-#Preview { ContentView() }
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
