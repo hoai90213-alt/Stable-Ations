@@ -53,7 +53,7 @@ jobs:
           ARCHIVE_PATH="$RUNNER_TEMP/StableAction.xcarchive"
           xcodebuild \
             -project "Stable Action.xcodeproj" \
-            -target "Stable Action" \
+            -scheme "Stable Action" \
             -configuration Release \
             -sdk iphoneos \
             -destination "generic/platform=iOS" \
